@@ -42,33 +42,33 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Six Runs"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="24dp"
         android:layout_marginRight="24dp"
+        android:background="@android:color/holo_orange_light"
         android:onClick="addThreeForTeamA"
-        android:background="@android:color/holo_orange_light" />
+        android:text="Six Runs" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Four Runs"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="24dp"
         android:layout_marginRight="24dp"
+        android:background="@android:color/holo_orange_light"
         android:onClick="addTwoForTeamA"
-        android:background="@android:color/holo_orange_light"/>
+        android:text="Four Runs" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="One Run"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="24dp"
         android:layout_marginRight="24dp"
+        android:background="@android:color/holo_orange_light"
         android:onClick="addOneForTeamA"
-        android:background="@android:color/holo_orange_light"/>
-    </LinearLayout>
+        android:text="One Run" />
+</LinearLayout>
 
     <View
         android:layout_width="1dp"
@@ -77,61 +77,62 @@
         android:background="@android:color/darker_gray" />
 
     <LinearLayout
-        android:layout_weight="1"
         android:layout_width="0dp"
         android:layout_height="match_parent"
+        android:layout_weight="1"
         android:orientation="vertical">
+
         <TextView
             android:id="@+id/teamb_text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Scotland"
+            android:fontFamily="sans-serif-medium"
             android:gravity="center_horizontal"
             android:padding="4dp"
-            android:textSize="14sp"
-            android:fontFamily="sans-serif-medium"
-            android:textColor="#616161"/>
+            android:text="Scotland"
+            android:textColor="#616161"
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/team_b_score"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="0"
+            android:fontFamily="sans-serif-medium"
             android:gravity="center_horizontal"
             android:padding="4dp"
+            android:text="0"
             android:textColor="#000000"
-            android:fontFamily="sans-serif-medium"
-            android:textSize="46sp"/>
+            android:textSize="46sp" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Six Runs"
             android:layout_marginBottom="8dp"
             android:layout_marginLeft="24dp"
             android:layout_marginRight="24dp"
+            android:background="@android:color/holo_orange_light"
             android:onClick="addThreeForTeamB"
-            android:background="@android:color/holo_orange_light"/>
+            android:text="Six Runs" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Four Runs"
             android:layout_marginBottom="8dp"
             android:layout_marginLeft="24dp"
             android:layout_marginRight="24dp"
+            android:background="@android:color/holo_orange_light"
             android:onClick="addTwoForTeamB"
-            android:background="@android:color/holo_orange_light"/>
+            android:text="Four Runs" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="One Run"
             android:layout_marginBottom="8dp"
             android:layout_marginLeft="24dp"
             android:layout_marginRight="24dp"
+            android:background="@android:color/holo_orange_light"
             android:onClick="addOneForTeamB"
-            android:background="@android:color/holo_orange_light"/>
+            android:text="One Run" />
     </LinearLayout>
 
 </LinearLayout>
